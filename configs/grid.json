@@ -13,6 +13,6 @@
     "seed": 42
   },
   "output": {
-    "runsCsv": "results/empty_grid_runs.csv"
+    "runsCsv": "results/grid_runs.csv"
   }
 }
