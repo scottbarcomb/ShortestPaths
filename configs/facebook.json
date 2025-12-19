@@ -6,8 +6,8 @@
   "experiment": {
     "graphName": "facebook",
     "graphType": "social",
-    "algorithm": "BFS",
-    "heuristic": "none",
+    "algorithm": "AStar",
+    "heuristic": "embedding_cosine",
     "embeddingPath": "embeddings/facebook_node2vec_128.emb",
     "embeddingDim": 128,
     "trials": 1000,
