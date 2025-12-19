@@ -1,0 +1,19 @@
+{
+  "graph": {
+    "type": "snap",
+    "path": "datasets/snap/facebook.txt"
+  },
+  "experiment": {
+    "graphName": "facebook",
+    "graphType": "social",
+    "algorithm": "BFS",
+    "heuristic": "none",
+    "embeddingPath": "embeddings/facebook_node2vec_128.emb",
+    "embeddingDim": 128,
+    "trials": 1000,
+    "seed": 42
+  },
+  "output": {
+    "runsCsv": "results/facebook_runs.csv"
+  }
+}

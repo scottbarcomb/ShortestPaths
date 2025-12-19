@@ -1,0 +1,18 @@
+{
+  "graph": {
+    "type": "grid",
+    "width": 5000,
+    "height": 5000
+  },
+  "experiment": {
+    "graphName": "grid_empty_5000x5000",
+    "graphType": "grid",
+    "algorithm": "AStar",
+    "heuristic": "manhattan",
+    "trials": 200,
+    "seed": 42
+  },
+  "output": {
+    "runsCsv": "results/empty_grid_runs.csv"
+  }
+}
