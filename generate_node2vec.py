@@ -2,10 +2,14 @@ import argparse
 import networkx as nx
 from node2vec import Node2Vec
 
+"""
+This script is used to generate a node2vec embedding of the given input graph (a SNAP dataset).
+This embedding is then used to power the heuristic function in the main program.
+"""
+
 def load_snap_edge_list(path: str) -> nx.Graph:
     """
     Load edge list from snap format (`u v` per line)
-    Ignores comment lines starting with '#'
     :param path: file path to snap edge list
     :return: networkx graph
     """
